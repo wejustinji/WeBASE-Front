@@ -14,3 +14,6 @@ cp nodes/127.0.0.1/sdk/* src/test/resources/
 # test module needs optimization
 ./gradlew build -x test
 #./gradlew test
+
+apt-get install jmeter -y
+jmeter -h
